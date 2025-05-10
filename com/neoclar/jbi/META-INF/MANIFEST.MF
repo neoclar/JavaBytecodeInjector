@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: "neoclar"
+Version: 0.2
+Main-Class: com.neoclar.jbi.java.CustomClassLoader
+SourceCodeURL: "https://github.com/neoclar/JavaBytecodeInjector"
+Dependencies: [asm>=9.7.1,
+               asm-tree>=9.7,
+               asm-util>=9.7.1
+              ]
+modID: "jbi"
+displayName: "JavaBytecodeInjector"
+description: """A tool for injecting your code into someone else's without changing the original files. Uses the ASM library and requires it to work."""
